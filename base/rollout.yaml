@@ -23,9 +23,9 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: vote-arm64:v3
         name: vote
-        imagePullPolicy: Always
+        imagePullPolicy: Never
         resources: 
           requests:
             cpu: "50m"

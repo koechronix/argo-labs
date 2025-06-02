@@ -4,7 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
-  images:
-   - name: schoolofdevops/vote
-     newName: initcron/vote
-     newTag: v9
+images:
+- name: vote-arm64
+  newName: vote-arm64
+  newTag: v3
