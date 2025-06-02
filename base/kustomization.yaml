@@ -4,7 +4,6 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
-<<<<<<< HEAD
 images:
 - name: vote-arm64
   newName: vote-arm64
