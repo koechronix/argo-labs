@@ -23,7 +23,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: vote-arm64:v3
+      - image: vote-arm64:v4
         name: vote
         imagePullPolicy: Never
         resources: 
